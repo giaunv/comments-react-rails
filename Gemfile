@@ -1,7 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'react-rails'
+gem 'react-rails', '~> 1.0'
 gem 'showdown-rails'
+gem 'marked-rails'
+
+gem 'sprockets', '~> 3.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
